@@ -1,0 +1,16 @@
+.record-form{
+  padding: 50px 150px;
+  text-align: left;
+  input{
+    width:300px;
+  }
+  @media screen and (min-width: 374px) and (max-width:767px) {
+    input{
+      width:150px;
+    }
+  }
+  textarea{
+    width:80%;
+    height:100px;
+  }
+}
